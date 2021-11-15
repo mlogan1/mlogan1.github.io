@@ -1,0 +1,121 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    box-sizing: border-box;
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(0, 47, 255, 0.719)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#main {
+    width: 40%;
+    margin: auto;
+    height: auto;
+    position: relative;
+    }
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    background-color: hsla(240, 80%, 10%, 0.404);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+
+.field {
+    font-size: 1.2rem;
+}
+
+#name {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#name-label {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+
+#email-label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#number {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+
+#number-label {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#dropdown {
+    margin-bottom: 10px;
+}
+
+#dropdown-label {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#dropdown2 {
+    margin-bottom: 10px;
+}
+
+#dropdown-label2 {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#recommend {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#checkbox-label {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#comments {
+    width: 100%;
+    font: inherit;
+    }
+
+#comments-label {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#submit {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3FAF65;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
