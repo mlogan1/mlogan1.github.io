@@ -3,8 +3,8 @@ const form = document.getElementById("weatherForm")
 const input = document.getElementById("zip")
 const weatherStats = document.getElementById("weatherStats")
 const wiki = document.getElementById("wiki")
-const gAPI = "AIzaSyCFAUsQIAiKOBve7esHPgr93LuWrNiFuG8"
-const oAPI = "9f5d9f1328a0755b30942eb6a69132ad"
+let gAPI = "AIzaSyCFAUsQIAiKOBve7esHPgr93LuWrNiFuG8"
+let oAPI = "9f5d9f1328a0755b30942eb6a69132ad"
 
 const getWeather = function(zip) {
 
