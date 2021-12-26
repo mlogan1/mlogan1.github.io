@@ -3,12 +3,12 @@ const form = document.getElementById("weatherForm")
 const input = document.getElementById("zip")
 const weatherStats = document.getElementById("weatherStats")
 const wiki = document.getElementById("wiki")
-const gAPI =
-const oAPI =
+const gAPI = "AIzaSyCFAUsQIAiKOBve7esHPgr93LuWrNiFuG8"
+const oAPI = "9f5d9f1328a0755b30942eb6a69132ad"
 
 const getWeather = function(zip) {
 
-fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=imperial&appid=9f5d9f1328a0755b30942eb6a69132ad`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=imperial&appid=${oAPI}`)
   .then(response => response.json())
   .then(data => {
 
@@ -33,7 +33,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=imper
       style="border:0"
       loading="lazy"
       allowfullscreen
-      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCFAUsQIAiKOBve7esHPgr93LuWrNiFuG8&q=${zip}">
+      src="https://www.google.com/maps/embed/v1/place?key=${gAPI}&q=${zip}">
     </iframe>
    `
 
